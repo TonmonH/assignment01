@@ -1,0 +1,32 @@
+.sticky {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    width: 100;
+    z-index: 1;
+}
+.sticky ul {
+    display: flex;
+    list-style: none;
+    margin: 11px 0px;
+}
+.sticky ul li {
+    font-family: century;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sticky ul li a {
+    text-decoration: none;
+    color: #abb8c3;
+    padding: 8px 50px;
+    transition: all 0.25s;
+}
+.sticky ul li a:hover {
+    color: #dcff7d;   
+}
+.sticky ul li a:active {
+    opacity: 0.7;
+}
